@@ -2,6 +2,6 @@
 Random Drop from Stone
 
 Todo:
-- Fix Diamonds not dropping
-- Add Damonds drop to all pickaxes for level less than 12
+- Add enchantments Support
+- Add Correct Values of Amounts for redstone and lapis
 - Remove drop from ores
