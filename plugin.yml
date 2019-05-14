@@ -3,3 +3,12 @@ main: Dearminder\StoneDrop
 api: [3.0.0]
 version: 1.0
 author: Dearminder
+commands:
+  drop:
+    description: "Command which Shows Drop from Stone percentage!"
+    usage: "/drop"
+    permission: stonedrop.cmd
+permissions:
+  stondrop.cmd:
+   description: "Allow Showing Drop from Stone percentage"
+   default: true
