@@ -141,6 +141,7 @@ class StoneDrop extends PluginBase implements Listener{
 						}
 						elseif ($block->getId() == 15 || $block->getId() == 16 || $block->getId() == 21 || $block->getId() == 14 || $block->getId() == 73 || $block->getId() == 56 || $block->getId() == 129 ){
 							$ev->setDrops([Item::get(0, 0, 0)]);
+							$ev->setXpDropAmount(0);
 							$player->sendMessage("§aOres Drops from stone, type /drop for more info");
 							}
 						}}
