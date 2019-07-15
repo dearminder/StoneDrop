@@ -104,7 +104,7 @@ class StoneDrop extends PluginBase implements Listener{
 				elseif ($percentage >= 200 && $percentage < 380)/**chance 1,8% for iron*/{
 						$ev->setDrops([Item::get(15, 0, 1)]);}
 				elseif ($percentage >= 380 && $percentage < 560)/**chance 1,5% for lapiz*/{
-						$ev->setDrops([Item::get(351, 4, r_lapiz)]);
+						$ev->setDrops([Item::get(351, 4, $r_lapiz)]);
 						$player->addXp($xp_lapis);}
 				elseif ($percentage >= 815 && $percentage < 895)/**chance 0,8% for gold*/{
 						$ev->setDrops([Item::get(14, 0, 1)]);}
